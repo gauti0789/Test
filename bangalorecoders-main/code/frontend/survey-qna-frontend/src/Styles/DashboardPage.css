@@ -1,0 +1,259 @@
+body{
+    background: #f0f0f0;
+    padding: 0px;
+}
+.DashboardContainer {
+    background: #f0f0f0;
+    margin-top: 0px;
+  }
+  .Dashboard {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    border-radius: 8px;
+  }
+
+  .DashboardHeader{
+    background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding around content */
+  text-align: center; /* Align text to the center */
+  font-size: 24px; /* Font size */
+  font-weight: bold; /* Font weight */
+  border-bottom: 2px solid #fff; /* Bottom border */
+  }
+
+  .SingleFileContainer{
+    margin-top: 20px;
+  }
+  .FileInputText {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+  }
+
+  .FileInputLabel {
+    display: block;
+    width: 110px;
+    height: 40px;
+    border-radius: 25px;
+    background: linear-gradient(20deg, yellow, green);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+    margin: 10px 0px;
+  }
+  
+  .UploadButton {
+    background-color: #4CAF50; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+  }
+
+  .UploadHeader{
+    padding: 10px 20px; /* Padding */
+    background-color: #4CAF50; /* Background color */
+    color: white; /* Text color */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+  }
+  
+  .FileList {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    margin-top: 10px;
+  }
+
+  .FileList li, .UploadedSingleFile {
+    margin-right: 10px; /* Margin between list items */
+    background-color: #eceaea; /* Background color */
+    padding: 15px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ddd; /* Border */
+    display: flex; /* Use flexbox for better alignment */
+    align-items: center; /* Center vertically */
+    margin-bottom: 5px; /* Margin at the bottom */
+    flex: 1 0 auto; /* Flex properties */
+    box-sizing: border-box; /* Include padding and border in width */
+    overflow-wrap: break-word; /* Wrap long words */
+  }
+  
+  .PDFContainer{
+    flex: 40%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .QNAContainer{
+    flex: 60%; 
+    margin-left: 20px;
+  }
+
+  .AskSomethingBox{
+  width: 80%;
+  padding: 8px;
+  border-radius: 4px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+}
+.ChatButtons {
+    margin-left: 2px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+
+.ChatScreen {
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.QuestionText {
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+
+  .AnswerText {
+    background-color: #eceaea;
+    color: #000;
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+
+  textarea {
+    border: none;
+    outline: none;
+    resize: none; /* Disable resizing */
+    overflow: auto; /* Enable vertical scrolling if content exceeds textarea height */
+    width: 95%;
+    height: 80px; /* Adjust height as needed */
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    background-color: #f8f8f8; /* Optional: Set background color */
+  }
+
+  .Plusbutton {
+    display: inline-block;
+    padding: 1px 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #4caf50;
+    color: white;
+    margin-left: 1px;
+  }
+
+  /* Minus button */
+  .Minusbutton {
+    display: inline-block;
+    padding: 1px 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #f44336;
+    color: white;
+    margin-left: 1px;
+  }
+
+  /* Info button */
+  .Infobutton {
+    display: inline-block;
+    padding: 1px 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #740596;
+    color: white;
+    margin-left: 1px;
+  }
+
+  /* Button hover effect */
+  .Minusbutton:hover, .Plusbutton:hover, .Infobutton:hover {
+    background-color: #555;
+  }
+
+  /* Button active effect */
+  .Minusbutton:active, .Plusbutton:active, .Infobutton:active {
+    transform: translateY(1px);
+  }
+
+  .FileTextInputs {
+    width: 100%;
+    padding: 7px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    transition: border-color 0.3s;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  .FileTextInputs:focus {
+    border-color: #007bff; /* Adjust focus border color */
+    outline: none;
+  }
+
+  .FileInputs{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .HideDetailsButton {
+    background-color: #ff8c00eb; /* Button background color */
+    color: white; /* Button text color */
+    padding: 5px 10px; /* Button padding */
+    font-size: 13px; /* Button font size */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  /* Button hover effect */
+  .HideDetailsButton:hover {
+    background-color: #0056b3; /* Adjust hover background color */
+  }
+
+  /* Button active effect */
+  .HideDetailsButton:active {
+    transform: translateY(1px);
+  }

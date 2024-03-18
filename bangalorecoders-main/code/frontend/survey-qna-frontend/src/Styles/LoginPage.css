@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+    background: #f0f0f0;
+    padding: 0px;
+  }
+  .LoginContainer {
+    background: #f0f0f0;
+    margin-top: 0px;
+  }
+  .LoginHeader{
+    background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding around content */
+  text-align: center; /* Align text to the center */
+  font-size: 24px; /* Font size */
+  font-weight: bold; /* Font weight */
+  border-bottom: 2px solid #fff; /* Bottom border */
+  }
+  .LoginInfoBox {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .LoginInfoBox h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .InputGroup {
+    margin-bottom: 20px;
+  }
+  
+  .InputGroup input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: 0 15%;
+  }
+  
+  .InputGroup button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 25%;
+  }
+  
+  .InputGroup button:hover {
+    background-color: #0056b3;
+  }
+  
